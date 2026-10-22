@@ -1,0 +1,19 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/cart/page": "/cart",
+  "/checkout/page": "/checkout",
+  "/contact/page": "/contact",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/men/page": "/men",
+  "/page": "/",
+  "/payment/[orderId]/page": "/payment/[orderId]",
+  "/payment/return/page": "/payment/return",
+  "/privacy/page": "/privacy",
+  "/product/[id]/page": "/product/[id]",
+  "/profile/page": "/profile",
+  "/search/page": "/search",
+  "/women/page": "/women"
+}

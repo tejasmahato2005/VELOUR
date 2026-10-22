@@ -1,0 +1,11 @@
+name,category,subcategory,price,compareAtPrice,description,sizes,image1,image2,featured,isNew,trending
+Silk Slip Dress,women,Dresses & Jumpsuits,1,1,Fluid champagne mulberry silk slip dress with delicate adjustable straps and a bias-cut midi silhouette.,XS|S|M|L,silk-slip-dress-1.jpg,silk-slip-dress-1.jpg,yes,yes,yes
+Oversized Wool Coat,women,Coats & Outerwear,1,1,"Double-faced camel wool overcoat tailored with dropped shoulders, wide notched lapels, and deep patch pockets.",XS|S|M|L|XL,wool-coat-1.jpg,wool-coat-1.jpg,yes,no,yes
+Relaxed Cashmere Sweater,women,Knitwear & Sweaters,1,,Relaxed-fit oatmeal cashmere crewneck sweater spun from soft Mongolian yarns with fine ribbed trims.,XS|S|M|L,cashmere-sweater-1.jpg,cashmere-sweater-1.jpg,yes,yes,no
+Wide-Leg Tailored Trousers,women,Trousers & Jeans,1,,High-waisted charcoal tailored trousers featuring clean pressed front creases and a relaxed fluid drape.,XS|S|M|L|XL,wide-leg-trousers-1.jpg,wide-leg-trousers-1.jpg,no,yes,yes
+Linen Blazer and Straight Denim,women,Tailored Jackets,1,1,Unstructured beige linen blazer styled over straight-leg light-wash denim jeans and an organic white tee.,XS|S|M|L,denim-blazer.png,denim-blazer.png,no,yes,no
+Slim Oxford Button-Down Shirt,men,Shirts & Tops,1,,Crisp light-blue slim oxford cotton button-down shirt with mother-of-pearl buttons and a soft roll collar.,S|M|L|XL,oxford-shirt-2.jpg,oxford-shirt-2.jpg,yes,no,yes
+Tailored Charcoal Wool Overcoat,men,Coats & Outerwear,1,1,"Tailored virgin wool overcoat in charcoal with clean structured shoulders, notched lapels, and interior chest pockets.",S|M|L|XL,charcoal-wool-men.png,,yes,yes,yes
+Chunky Fisherman Cable Knit,men,Knitwear & Sweaters,1,,Heavyweight ecru ribbed fisherman sweater with visible chunky cable stitches and dense ribbed cuffs.,S|M|L|XL,fishermen-knit.png,fishermen-knit.png,yes,yes,no
+Heavyweight Essential Crewneck Tee,men,Shirts & Tops,1,,Dense 280gsm organic combed cotton t-shirt with a structured drape and bound ribbed collar.,S|M|L|XL,essential-tshirt.jpg,essential-tshirt.jpg,no,yes,yes
+Pleated Wide-Leg Stone Trousers,men,Trousers & Jeans,1,,"Relaxed stone-toned trousers with deep forward pleats, side slash pockets, and a wide fluid leg line.",S|M|L|XL,pleated-trousers.png,,no,yes,yes

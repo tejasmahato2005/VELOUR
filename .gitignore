@@ -1,0 +1,21 @@
+
+# InsForge & AI agent skills
+.insforge
+.agent
+.agents
+.augment
+.claude
+.cline
+.github/copilot*
+.kilocode
+.qoder
+.qwen
+.roo
+.trae
+.windsurf
+
+# Environment variables (local, never committed)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
