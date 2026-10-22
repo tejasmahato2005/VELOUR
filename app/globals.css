@@ -1464,12 +1464,37 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: var(--space-lg);
   border-top: 1px solid var(--border-dark);
   padding-top: var(--space-lg);
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #7d756d;
+}
+
+/* Equal-width sides keep the credit line perfectly centered */
+.footer-bottom > .footer-copyright,
+.footer-bottom > .footer-legal {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.footer-bottom > .footer-copyright {
+  text-align: left;
+}
+
+.footer-credit {
+  flex: 0 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  color: #c9c3bc;
+}
+
+.footer-legal {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
 }
 
 .social-links {
@@ -1508,6 +1533,28 @@ h1, h2, h3, h4, h5, h6 {
 .reveal-delay-4 { transition-delay: 0.4s; }
 
 /* Responsive Media Queries */
+@media (max-width: 1140px) {
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--space-md);
+    text-align: center;
+  }
+
+  .footer-bottom > .footer-copyright,
+  .footer-bottom > .footer-legal {
+    flex: 0 0 auto;
+    text-align: center;
+  }
+
+  .footer-legal {
+    justify-content: center;
+  }
+
+  .footer-credit {
+    white-space: normal;
+  }
+}
+
 @media (max-width: 1024px) {
   .product-grid {
     grid-template-columns: repeat(3, 1fr);

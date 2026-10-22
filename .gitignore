@@ -19,3 +19,11 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
+# dependencies & build output
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+*.log

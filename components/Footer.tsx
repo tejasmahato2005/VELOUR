@@ -134,15 +134,22 @@ export function Footer() {
 
         {/* Footer Bottom Strip */}
         <div className="footer-bottom">
-          <span>&copy; {currentYear} VELOUR Atelier Ltd. All rights reserved.</span>
-          <div style={{ display: "flex", gap: "20px" }}>
-            <Link href="/privacy" className="footer-link" style={{ fontSize: "0.72rem" }}>
+          <span className="footer-copyright">
+            &copy; {currentYear} VELOUR Atelier Ltd. All rights reserved.
+          </span>
+
+          <span className="footer-credit">
+            Website designed and created by Tejas Mahato
+          </span>
+
+          <div className="footer-legal">
+            <Link href="/privacy" className="footer-link">
               Privacy Notice
             </Link>
-            <Link href="/privacy" className="footer-link" style={{ fontSize: "0.72rem" }}>
+            <Link href="/privacy" className="footer-link">
               Terms of Service
             </Link>
-            <Link href="/privacy" className="footer-link" style={{ fontSize: "0.72rem" }}>
+            <Link href="/privacy" className="footer-link">
               Cookies
             </Link>
           </div>
